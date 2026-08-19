@@ -55,19 +55,19 @@ const publications = [
 
 const doctoralFocus = [
   {
-    icon: Braces,
-    title: "IDP conformations",
-    description: "Modeling conformational behavior in intrinsically disordered proteins.",
+    icon: Droplets,
+    title: "IDP conformations & LLPS",
+    description: "Intrinsic disorder · Conformational ensembles · Liquid–liquid phase separation",
   },
   {
-    icon: Droplets,
-    title: "Liquid–liquid phase separation",
-    description: "Studying molecular interactions and emergent behavior in LLPS systems.",
+    icon: Braces,
+    title: "Coarse-grained force fields",
+    description: "Developing coarse-grained MD · ML-based coarse graining",
   },
   {
     icon: Network,
-    title: "Coarse-grained force fields",
-    description: "Developing transferable coarse-grained force fields for complex soft-matter systems.",
+    title: "Machine learning architectures",
+    description: "Transformer · Graph neural networks · Diffusion models",
   },
 ];
 
@@ -88,7 +88,7 @@ export default function Home() {
 
       <header className="site-header" aria-label="Primary navigation">
         <a className="brand" href="#top" aria-label="Jiaxin Tian home">
-          <img src="/assets/jiaxin-cat-avatar.png" alt="Jiaxin Tian’s cat avatar" className="brand__avatar" />
+          <img src="/manus-storage/meridian-node-logo_89f13216.png" alt="" className="brand__mark" />
           <span className="brand__name">Jiaxin Tian</span>
         </a>
         <nav className="site-nav" aria-label="On this page">
@@ -105,7 +105,7 @@ export default function Home() {
         <section className="hero" id="top" aria-labelledby="hero-title">
           <div className="hero__main">
             <div className="hero__identity">
-              <img src="/assets/jiaxin-cat-avatar.png" alt="Jiaxin Tian’s cat avatar" className="hero__avatar" />
+              <img src="/manus-storage/jiaxin-cat-avatar_682555b3.png" alt="Jiaxin Tian’s cat avatar" className="hero__avatar" />
               <div>
                 <p className="kicker">PH.D. STUDENT · HKUST CBE</p>
                 <h1 id="hero-title">Jiaxin Tian</h1>
@@ -113,8 +113,8 @@ export default function Home() {
             </div>
             <p className="hero__role">Ph.D. Student in Chemical &amp; Biological Engineering</p>
             <p className="hero__statement">
-              I work on <strong>AI for Science</strong>, developing data-driven and physics-informed
-              computational approaches for soft matter, biomolecular systems, and complex fluids.
+              I build <strong>AI for Science</strong> models with physically grounded inductive biases,
+              combining molecular simulation and modern machine learning for biomolecular systems.
             </p>
             <div className="hero__contacts">
               <a href="mailto:jtianaq@connect.ust.hk">jtianaq@connect.ust.hk</a>
@@ -127,18 +127,7 @@ export default function Home() {
         <section className="research-section section-wrap" id="research" aria-labelledby="research-title">
           <div className="research-section__intro">
             <SectionLabel index="01">Research</SectionLabel>
-            <h2 id="research-title">Current doctoral <em>research.</em></h2>
-            <p>
-              My research is situated in AI for Science, alongside computational science and engineering
-              approaches for complex coacervates, protein condensates, polymers, and complex fluids.
-              I focus on the conformations of intrinsically disordered proteins (IDPs), liquid–liquid phase
-              separation (LLPS), and the development of coarse-grained force fields.
-            </p>
-            <p>
-              I aim to develop data-driven, physically grounded models that connect molecular interactions,
-              mesoscale organization, and experimentally observable behavior. Earlier work on machine-learning-
-              assisted synthesis of two-dimensional covalent organic frameworks informs this perspective.
-            </p>
+            <h2 id="research-title">AI for Science with <em>physical priors.</em></h2>
           </div>
 
           <div className="focus-list" aria-label="Doctoral research areas">
@@ -159,7 +148,7 @@ export default function Home() {
           <div className="section-wrap education-section__grid">
             <div className="education-section__heading">
               <SectionLabel index="02">Education</SectionLabel>
-              <h2 id="education-title">Academic <em>path.</em></h2>
+              <h2 id="education-title">Academic path.</h2>
               <p>
                 A cross-disciplinary foundation spanning connected systems, economics,
                 microelectronics, and molecular engineering.
@@ -207,7 +196,7 @@ export default function Home() {
             <a className="text-action" href={scholarProfile} target="_blank" rel="noreferrer">All publications <ArrowUpRight size={15} /></a>
           </div>
           <div className="publications-section__headline-row">
-            <h2 id="publications-title">Selected <em>work.</em></h2>
+            <h2 id="publications-title">Selected work.</h2>
             <p>Titles and citation counts are linked to the public Google Scholar record.</p>
           </div>
 
@@ -233,8 +222,8 @@ export default function Home() {
       </main>
 
       <footer className="site-footer">
-        <div className="site-footer__brand"><img src="/assets/meridian-node-logo.png" alt="" className="site-footer__logo" /><span>Jiaxin Tian</span></div>
-        <p>AI for Science · computational modeling for soft-matter and molecular systems.</p>
+        <div className="site-footer__brand"><img src="/manus-storage/meridian-node-logo_89f13216.png" alt="" className="site-footer__logo" /><span>Jiaxin Tian</span></div>
+        <p>AI for Science · molecular simulation · scientific machine learning.</p>
         <a href={scholarProfile} target="_blank" rel="noreferrer">Google Scholar <ArrowUpRight size={14} /></a>
       </footer>
     </div>
