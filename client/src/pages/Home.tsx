@@ -121,6 +121,11 @@ export default function Home() {
               <span aria-hidden="true">·</span>
               <a href={scholarProfile} target="_blank" rel="noreferrer">Google Scholar <ArrowUpRight size={14} /></a>
             </div>
+            <div className="hero__coordinates" aria-label="Research coordinates">
+              <span><b>DOMAIN</b>IDPs &amp; LLPS</span>
+              <span><b>METHODS</b>MD · ML-CG · ML</span>
+              <span><b>HOME</b>HKUST CBE</span>
+            </div>
           </div>
         </section>
 
