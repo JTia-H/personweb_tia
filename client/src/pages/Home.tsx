@@ -187,7 +187,7 @@ export default function Home() {
                 <div className="timeline-item__content">
                   <p className="timeline-item__level">Bachelor’s Degree</p>
                   <h3>Beijing Institute of Technology</h3>
-                  <p>Internet of Things Engineering · School of Computer Science &amp; Technology</p>
+                  <p>School of Computer Science &amp; Technology</p>
                   <p className="timeline-item__advisor">Dual Degree in Economics</p>
                 </div>
               </article>
